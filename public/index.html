@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ExToDo — Export Microsoft To Do</title>
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/msal.js"></script>
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <main>
+    <h1>Export Microsoft To Do</h1>
+    <p>Sign in with a work, school, or personal Microsoft account. ExToDo requests read-only access to your lists and tasks.</p>
+    <p>Your browser fetches and encrypts the export in memory. The JSON file you download is <strong>not encrypted</strong>. Store it somewhere private.</p>
+    <button id="connect" type="button" disabled>Sign in with Microsoft</button>
+    <button id="disconnect" type="button" hidden>Sign out</button>
+    <p id="status" role="status">Loading…</p>
+    <fieldset id="picker" hidden disabled>
+      <legend>Task lists</legend>
+      <ul id="lists"></ul>
+      <button id="selected" type="button" disabled>Download selected lists</button>
+      <button id="all" type="button">Download all lists</button>
+    </fieldset>
+    <noscript>JavaScript is required to sign in and export in your browser.</noscript>
+  </main>
+</body>
+</html>

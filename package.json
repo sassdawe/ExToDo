@@ -1,0 +1,15 @@
+{
+  "name": "extodo",
+  "version": "1.0.0",
+  "description": "Export tasks and lists from ToDo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@azure/msal-browser": "5.30.0"
+  }
+}
