@@ -1,0 +1,8 @@
+:root { color-scheme: light dark; font: 1.05rem/1.5 system-ui, sans-serif; }
+body { margin: 0; }
+main { max-width: 42rem; margin: 3rem auto; padding: 0 1rem; }
+button { font: inherit; margin: .25rem .4rem .25rem 0; padding: .35rem .7rem; }
+fieldset { margin: 1rem 0; padding: 1rem; min-width: 0; }
+ul { list-style: none; padding: 0; margin-top: 0; overflow-wrap: anywhere; }
+li { margin-block: .4rem; }
+input { margin-inline-end: .6rem; }
